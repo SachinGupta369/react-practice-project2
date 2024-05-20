@@ -3,12 +3,13 @@ import ContactForm from "./component/ContactForm/ContactForm";
 import ContactHeader from "./component/ContactHeader/ContactHeader";
 import Navigation from "./component/Navigat/Navigation";
 function App() {
-
   return (
     <div>
       <Navigation />
-      <ContactHeader />
+     <main className="main_container">
+     <ContactHeader />
       <ContactForm />
+     </main>
     </div>
   );
 }
