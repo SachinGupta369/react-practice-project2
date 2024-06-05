@@ -45,6 +45,10 @@
     font-weight: 600;
 }
 
+.form_control textarea{
+    padding: 10px;
+}
+
 .contact_images img{
     width: 90%;
 }
